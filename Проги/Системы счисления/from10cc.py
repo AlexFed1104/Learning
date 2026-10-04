@@ -28,12 +28,12 @@ def from10cc(num, numsys):
         elif n == 11:
             n ="B"
         elif k == 12:
-        n ="C"
-    elif k == 13:
-        n ="D"
-    elif k == 14:
-        n ="E"
-    elif k == 15:
-        n ="F"
-    ans.insert(0, str(n))
-    return "".join(ans)
+            n ="C"
+        elif k == 13:
+            n ="D"
+        elif k == 14:
+            n ="E"
+        elif k == 15:
+            n ="F"
+        ans.insert(0, str(n))
+        return "".join(ans)
