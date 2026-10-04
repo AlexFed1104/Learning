@@ -1,6 +1,6 @@
 def from10cc(num, numsys):
-    try
-    ans = []
+    try:
+        ans = []
     k = 0
     n = 0
     while num >= numsys:
