@@ -1,14 +1,14 @@
 def from10cc(num, numsys):
     try:
         ans = []
-    k = 0
-    n = 0
-    while num >= numsys:
-        k = num % numsys
-        num = num // numsys
-        n = k
-        if k == 10:
-            n = "A"
+        k = 0
+        n = 0
+        while num >= numsys:
+            k = num % numsys
+            num = num // numsys
+            n = k
+            if k == 10:
+                n = "A"
         elif n == 11:
             n ="B"
         elif k == 12:
