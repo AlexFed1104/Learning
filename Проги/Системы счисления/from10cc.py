@@ -15,7 +15,7 @@ def from10cc(num, numsys):
                 n ="C"
             elif k == 13:
                 n ="D"
-        elif k == 14:
+            elif k == 14:
             n ="E"
         elif k == 15:
             n ="F"
