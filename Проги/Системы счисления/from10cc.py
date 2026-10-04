@@ -17,9 +17,9 @@ def from10cc(num, numsys):
                 n ="D"
             elif k == 14:
                 n ="E"
-        elif k == 15:
-            n ="F"
-        ans.insert(0, str(n))
+            elif k == 15:
+                n ="F"
+            ans.insert(0, str(n))
     k = num % numsys
     num = num // numsys
     n = k
